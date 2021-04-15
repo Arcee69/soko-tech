@@ -1,0 +1,292 @@
+              /****** GENERAL STYLING ******/
+body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.top {
+  width: inherit;
+  background-color: #0066ff;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  color: white;
+  height: 50px;
+}
+
+.h {
+  font-size: 1rem;
+  margin-left: 5%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-size: 15px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-size: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.box {
+  width: 5%;
+  padding: 3px;
+  height: 20%;
+  margin-top: 1em; 
+  margin-left: 10px;
+  text-align: center;
+  background-color: #0066ff;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.box-2 {
+  width: 5%;
+  padding: 2px;
+  height: 20%;
+  margin-top: 6%; 
+  margin-left: 10px;
+  text-align: center;
+  background-color: #0066ff;
+  color: #fff;
+  border-radius: 3px;
+}
+
+                  /******* SECOND ROW STYLING  ********/
+
+/* Home Styling */
+.size {
+  display: flex;
+  margin-left: 5%;
+  width: 33%;
+  margin-top: 1%;
+}
+
+.m {
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.bold {
+  color: black;
+  font-weight: 800;
+  font-size: 1.2em;
+}
+
+.home {
+  font-size: 30px;
+  color: lightgray;
+  margin-top: 1%;
+}
+
+/* Bag Styling */
+
+.bag-size {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  margin-top: 1.5%;
+}
+
+.bag {
+  font-size: 20px;
+  color: lightgray;
+  margin-top: 2%;
+}
+
+.b {
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+/***** Search component styling *****/
+
+.center {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.point {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 36px;
+  background-color: #ffcc00;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.search {
+  width: 30%;
+  height: 34px;
+  background-color: #f5f5f0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 3px 0px 0px 3px;
+  border: none;
+}
+
+/***** List Styling *****/
+ul {
+  border-right: 1px grey solid;
+  list-style: none;
+  text-decoration: none;
+}
+
+.m-list {
+  margin-left: 7%; 
+}
+
+.arrow {
+  margin-top: 20%;
+}
+
+li {
+  margin: 7px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  
+}
+
+li:hover {
+  color: #0066ff;
+}
+
+li:active {
+  color: #0066ff;
+}
+
+.dis {
+  width: 100%;
+  display: flex;
+}
+
+/****** Content Styling  *****/
+img {
+  width: 20%;
+  height: auto;
+  display: block
+}
+
+.flex-1 {
+  display: flex;
+  color: black;
+  font-size: 15px;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+/**** Button Styling *****/
+.btn {
+  display: flex;
+  width: 10%;
+  height: 25px;
+  border: 2px solid #0066ff ;
+  color: #0066ff;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+/***** Bag Styling *****/
+
+.d-bag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.frown {
+  width: 30%;
+  height: 30%;
+  color: silver;
+}
+
+.text-B {
+  text-align: center;
+}
+
+/***** FooterB Styling ******/
+.footer-b {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-evenly;
+  align-items:center;
+  background-color: #0066ff;
+  color: #fff;
+}
+
+.center-B {
+  margin-top: 2%;
+  margin-left: 2%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  text-align: center;
+}
+
+.icon-B {
+  margin-left: 1em;
+  font-size: 2em;
+  color: gold;
+}
+
+/***** FooterW Styling ******/
+.footer-w {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.btn-w {
+  background-color: #33cc33;
+  cursor: pointer;
+  border: none;
+  padding: 7px;
+  color: white;
+  font-size: 14px;
+}
+
+/***** Sticky styling *****/
+
+.sticky {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  margin-left: 10px;
+}
+.btn-s {
+  background-color: #e6e6e6;
+  margin: 5px;
+  padding: 9px;
+  color: #000;
+  cursor: pointer;
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.btn-s:hover{
+  width: 120px;
+  height: 35px; 
+  transition: width 2s, height 2s;
+}
